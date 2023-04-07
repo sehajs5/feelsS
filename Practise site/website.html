@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>TinDog</title>
+  <!-- GOOGLE FONTS-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;900&family=Ubuntu&display=swap"
+    rel="stylesheet">
+  <!--bootstrap stylesheet-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <!--customised stylesheet-->
+  <!--font awesome for icons-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- bootstrap javascript-->
+  <link rel="stylesheet" href="css/styles.css">
+
+</head>
+
+<body>
+
+  <section id="title">
+    <!-- Containers are like a box that holds information for css. Container- fluid is used so that the size
+    of pur boxes can change as the screen size decreases or increases and we can also align the text by using
+padding and other properties using this-->
+    <div class="container-fluid">
+      <!-- Nav Bar this one section you can use to know about the toggle button and how to design a menu basically -->
+      <nav class="navbar navbar-expand-lg bg-#ff4c68 navbar-dark">
+        <a class="navbar-brand" id="brand-font" href="">
+          <p class="fs-1 m-3 ml-0 special">tindog</p>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
+          aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarToggleExternalContent">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link m-3 fs-5 text-white" id="menu" href="#footer">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link m-3 fs-5 text-white" id="menu" href="#pricing">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link m-3 fs-5 text-white" id="menu" href="#cta">Download</a>
+            </li>
+          </ul>
+        </div>
+
+      </nav>
+
+
+
+      <!-- Title Here col-lg-6 means that if the window size is greater than large size then it should
+    occupy 6 units. The total units on a screen are 12 and md stands for medium and sm stands for small.
+when you want want to cover the entire screen you don't have to mention the sm, lg or md as in this case 
+anything below large should cover the entire screen-->
+
+      <div class="row" id="marginn">
+        <div class="col-lg-6 col-md-12 heading-text">
+          <h1>Meet new and interesting dogs nearby.</h1>
+
+          <button type="button" class="btn btn-dark btn-lg mt-5 download-button"><i class="fa-brands fa-apple"></i>
+            Download</button>
+          <button type="button" class="btn btn-outline-light btn-lg mt-5 download-button"><i
+              class="fa-brands fa-google-play"></i> Download</button>
+        </div>
+        <div class="col-lg-6 col-md-12">
+          <img src="images/iphone6.png" alt="iphone-mockup" class="rotateMobile">
+        </div>
+      </div>
+  </section>
+
+
+  <!-- Features -->
+
+  <section id="features">
+    <div class="row">
+      <div class="col-lg-3 text-center">
+        <i class="fa-solid fa-circle-check check-size"></i>
+        <h3 class="fs-10 fw-bold">Easy to use.</h3>
+        <p class="subtitles">So easy to use, even your dog could do it.</p>
+      </div>
+      <div class="col-lg-3 text-center">
+        <i class="fa-solid fa-bullseye check-size"></i>
+        <h3 class="fs-10 fw-bold">Elite Clientele</h3>
+        <p class="subtitles">We have all the dogs, the greatest dogs.</p>
+      </div>
+      <div class="col-lg-3 text-center">
+        <i class="fa-solid fa-heart check-size"></i>
+        <h3 class="fs-10 fw-bold">Guaranteed to work.</h3>
+        <p class="subtitles">Find the love of your dog's life or your money back.</p>
+      </div>
+    </div>
+    </div>
+  </section>
+
+
+  <!-- Testimonials -->
+
+  <!-- <section id="testimonials">
+    <div id="testimonial-corousel" class="carousel slide" data-ride="false">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <h2 class="fw-bold">I no longer have to sniff other dogs for love. I've found the hottest Corgi on TinDog.
+            Woof.</h2>
+          <img src="images/dog-img.jpg" class="image-dog" alt="dog-profile">
+          <em>Pebbles, New York</em>
+        </div>
+        <div class="carousel-item">
+          <h2 class="testimonial-text fw-bold">My dog used to be so lonely, but with TinDog's help, they've found the
+            love of their life. I think.</h2>
+          <img class="testimonial-image image-dog" src="images/lady-img.jpg" alt="lady-profile">
+          <em>Beverly, Illinois</em>
+        </div>
+      </div>
+      <a class="corousel-control-prev" href="#testimonial-corousel" role="button" data-slide="prev">
+        <span class="corousel-control-prev-icon"></span>
+      </a>
+      <a class="corousel-control-next" href="#testimonial-corousel" role="button" data-slide="next">
+        <span class="corousel-control-next-icon"></span>
+      </a>
+    </div>
+  </section> -->
+
+  <!-- final -->
+<!-- 
+  <div id="carouselExample" class="carousel slide">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./images/pexels-chevanon-photography-1108099.jpg" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div> -->
+
+
+  <!-- Press -->
+
+  <section id="press">
+    <img class="press-image" src="images/techcrunch.png" alt="tc-logo">
+    <img class="press-image" src="images/tnw.png" alt="tnw-logo">
+    <img class="press-image" src="images/bizinsider.png" alt="biz-insider-logo">
+    <img class="press-image" src="images/mashable.png" alt="mashable-logo">
+
+  </section>
+
+
+  <!-- Pricing 
+  Card provides a sort of container. they have header, body and they can also have a footer. -->
+
+  <section id="pricing">
+
+    <h2 class="pricing-text fw-bold">A Plan for Every Dog's Needs</h2>
+    <p class="pricee">Simple and affordable price plans for your and your dog.</p>
+    <div class="row">
+      <div class="col-lg-4 col-md-6 box-padding">
+        <div class="card">
+          <div class="card-header">
+            <h3 class="fw-bold">Chihuahua</h3>
+          </div>
+          <div class="card-body">
+            <h2 class="pricing-text fw-bold">Free</h2>
+            <p class="text-padding pricee">5 Matches Per Day</p>
+            <p class="pricee">10 Messages Per Day</p>
+            <p class="pricee">Unlimited App Usage</p>
+            <div class="d-grid gap-2 col-12 mx-left">
+              <button type="button" class="btn btn-outline-secondary btn-lg">Sign Up</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 box-padding">
+        <div class="card ">
+          <div class="card-header">
+            <h3 class="fw-bold">Labrador</h3>
+          </div>
+          <div class="card-body">
+            <h2 class="pricing-text fw-bold">$49 / mo</h2>
+            <p class="text-padding pricee">Unlimited Matches</p>
+            <p class="pricee">Unlimited Messages</p>
+            <p class="pricee">Unlimited App Usage</p>
+            <div class="d-grid gap-2 col-12 mx-left">
+              <button type="button" class="btn btn-secondary btn-lg">Sign Up</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-12  box-padding">
+        <div class="card">
+          <div class="card-header">
+            <h3 class="fw-bold">Mastiff</h3>
+          </div>
+          <div class="card-body">
+            <h2 class="pricing-text fw-bold">$99 / mo</h2>
+            <p class="pricee">Pirority Listing</p>
+            <p class="pricee">Unlimited Matches</p>
+            <p class="pricee">Unlimited Messages</p>
+            <p class="pricee">Unlimited App Usage</p>
+            <div class="d-grid gap-2 col-12 mx-left">
+              <button type="button" class="btn btn-secondary btn-lg">Sign Up</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+
+  <!-- Call to Action -->
+
+  <section id="cta">
+
+    <h3 class="cta-text fw-bold">Find the True Love of Your Dog's Life Today.</h3>
+    <button type="button" class="btn btn-dark btn-lg download-button"><i class="fa-brands fa-apple"></i>
+      Download</button>
+    <button type="button" class="btn btn-light btn-lg download-button"><i class="fa-brands fa-google-play"></i>
+      Download</button>
+
+  </section>
+
+
+  <!-- Footer -->
+
+  <footer id="footer">
+    <i class="fa-brands fa-twitter footer-icons"></i>
+    <i class="fa-brands fa-facebook-f footer-icons"></i>
+    <i class="fa-brands fa-instagram footer-icons"></i>
+    <i class="fa-solid fa-envelope"></i>
+    <p class="footer-text">© Copyright TinDog</p>
+
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
+    integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
+<!-- Z-index
+caousels
+changing shape of button
+center aligning of footer text-->
